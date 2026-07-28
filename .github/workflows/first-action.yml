@@ -10,4 +10,8 @@ jobs:
         run: echo "Good Bye World!!!!"
       - name: print in python env
         run:  python -c 'print("I am 30 years old")'
+      - name: print multiple msges
+        run: |
+              echo "First output"
+              echo "Second output"
 
