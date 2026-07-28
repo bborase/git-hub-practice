@@ -9,5 +9,5 @@ jobs:
       - name: print Exit message
         run: echo "Good Bye World!!!!"
       - name: print in python env
-        run: age=30 ; python -c 'print(f"I am {age} years old")'
+        run:  python -c 'print("I am 30 years old")'
 
